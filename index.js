@@ -5,7 +5,7 @@
 // Premium Membership: Access to all books, including exclusive content.
 // Question: Imagine you have a variable that stores a user’s membership type. Using conditional statements, determine what resources the user can access and display a message indicating their access level. Consider how you would handle a situation where the membership type is invalid.
 // const prompt = require("prompt-sync")();
-var membershipType = prompt("membershipType?");
+// var membershipType = prompt("membershipType?");
 if (membershipType === "Basic") {
     console.log("Access to only free books");
 } else if (membershipType === "Standard") {
@@ -25,8 +25,8 @@ if (membershipType === "Basic") {
 
 // Question: Suppose you have variables that represent a user’s membership status and purchase amount. Use conditional statements to determine the final price after applying the appropriate discount. Think about how to handle invalid inputs, such as negative purchase amounts or unrecognized membership statuses.
 // var prompt = require("prompt-sync")();
-var membershipType = prompt("membershipType?");
-var purchaseAmount = prompt("purchase_amount?");
+// var membershipType = prompt("membershipType?");
+// var purchaseAmount = prompt("purchase_amount?");
 purchaseAmount = Number.parseInt(purchaseAmount);
 if (membershipType === "Regular") {
     if (0 < purchaseAmount && purchaseAmount < 100) {
@@ -60,9 +60,9 @@ if (membershipType === "Regular") {
 // Community Service Scholarship: Requires 100 or more hours of community service and a GPA of 2.5 or higher.
 // Question: Given variables that store a student's GPA, number of extracurricular activities, and community service hours, use conditional statements to determine which scholarships the student is eligible for. Consider scenarios where a student qualifies for multiple scholarships or none.
 // var prompt = require("prompt-sync")();
-var gpa = prompt("gpa?");
-var extracurricularActivities = prompt("extracurricularActivities?");
-var communityServiceHours = prompt("communityServiceHours?");
+// var gpa = prompt("gpa?");
+// var extracurricularActivities = prompt("extracurricularActivities?");
+// var communityServiceHours = prompt("communityServiceHours?");
 gpa = Number.parseFloat(gpa);
 extracurricularActivities = Number.parseInt(extracurricularActivities);
 communityServiceHours = Number.parseInt(communityServiceHours);
@@ -82,9 +82,9 @@ if (gpa >= 3.5) {
 // Weekends: Standard price of $15. Seniors and children receive a 30% discount.
 // Question: Assume you have variables for the day of the week and the customer’s age. Use conditional statements to determine the correct ticket price. Consider how to handle situations where the day or age is invalid.
 // var prompt = require("prompt-sync")();
-var age = prompt("age?");
+// var age = prompt("age?");
 age = Number.parseInt(age)
-var dayOfWeek = prompt("dayOfWeek?");
+// var dayOfWeek = prompt("dayOfWeek?");
 let standard_price_weekdays = 12;
 let standard_price_weekends = 15;
 if (dayOfWeek === "Monday" || dayOfWeek === "Tuesday" || dayOfWeek === "Wednesday" || dayOfWeek === "Thursday" || dayOfWeek === "Friday") {
@@ -114,10 +114,10 @@ else {
 // The user must provide a valid email address.
 // Question: You have variables for the user’s age, the number of participants already registered, and their email address. Use conditional statements to validate whether the user can register for the event. Think about how to handle cases where some or all conditions are not met.
 // var prompt = require("prompt-sync")();
-var usersage = prompt("age?");
-var email = prompt("email?");
+// var usersage = prompt("age?");
+// var email = prompt("email?");
 usersage = Number.parseInt(usersage);
-var noofparticipants = prompt("noofofparticipants?");
+// var noofparticipants = prompt("noofofparticipants?");
 noofparticipents = Number.parseInt(noofparticipants);
 if (usersage >= 18 && noofparticipants < 100 && email === "valid") {
     console.log("you can register for the event");
