@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <script src="./index.js"></script>
+    <p>1. Scenario: Online Library Membership<br>
+        ---------------------------------------<br>
+        Context: An online library offers different levels of membership. Depending on the type of membership, users
+        have access to different resources:<br />
+        Basic Membership: Access to only free books.<br />
+        Standard Membership: Access to free books and discounted paid books.<br />
+        Premium Membership: Access to all books, including exclusive content.<br />
+        Question: Imagine you have a variable that stores a user’s membership type. Using conditional statements,
+        determine what resources the user can access and display a message indicating their access level. Consider how
+        you would handle a situation where the membership type is invalid.
+    <p>
+        <!-- <script src="./indeex.js"></script> -->
+        <img src="./WhatsApp Image 2024-12-04 at 00.02.49_8c4419d8.jpg" alt="error">
+    <p>2. Scenario: E-Commerce Discount Application <br />
+        ---------------------------------------------<br>
+        Context: An e-commerce platform applies discounts based on the user's membership status and the total purchase
+        amount:<br>
+
+        Regular Customers: No discount for purchases under $100. A 5% discount for purchases between $100 and $500. A
+        10% discount for purchases over $500.<br>
+
+        VIP Customers: A 10% discount for purchases under $100. A 15% discount for purchases between $100 and $500. A
+        20% discount for purchases over $500.<br>
+
+        Question: Suppose you have variables that represent a user’s membership status and purchase amount. Use
+        conditional statements to determine the final price after applying the appropriate discount. Think about how to
+        handle invalid inputs, such as negative purchase amounts or unrecognized membership statuses.<br>
+    </p>
+    <img src="./discounts.jpg" alt="error">
+    <p>. Scenario: Academic Scholarship Eligibility<br />
+        ----------------------------------------------<br>
+        Context: A university offers scholarships to students based on their GPA and extracurricular involvement:<br>
+
+        Merit-Based Scholarship: Requires a GPA of 3.5 or higher.<br>
+
+        Leadership Scholarship: Requires active participation in at least two extracurricular activities and a GPA of
+        3.0 or higher.<br>
+
+        Community Service Scholarship: Requires 100 or more hours of community service and a GPA of 2.5 or higher.<br>
+
+        Question: Given variables that store a student's GPA, number of extracurricular activities, and community
+        service hours, use conditional statements to determine which scholarships the student is eligible for. Consider
+        scenarios where a student qualifies for multiple scholarships or none.<br>
+
+    </p>
+    <img src="./scholerships.jpg" alt="">
+    4. Scenario: Movie Ticket Pricing<br>
+    // ----------------------------------<br>
+    // Context: A movie theater charges different prices based on the day of the week and the customer's age:<br>
+    // Weekdays: Standard price of $12. Seniors (65 and older) and children (under 12) receive a 50% discount.<br>
+    // Weekends: Standard price of $15. Seniors and children receive a 30% discount.<br>
+    // Question: Assume you have variables for the day of the week and the customer’s age. Use conditional statements to
+    determine the correct ticket price. Consider how to handle situations where the day or age is invalid.<br>
+    </p>p>
+    <img src="./movie tickets.jpg" alt="">
+    <p>
+        5. Scenario: Event Registration Validation<br>
+        -------------------------------------------<br>
+        Context: An event registration system needs to validate user inputs before confirming their registration:<br>
+        The user must be 18 years or older to register.<br>
+        The event allows a maximum of 100 participants. If the event is full, no more registrations are accepted.<br>
+        The user must provide a valid email address.<br>
+        Question: You have variables for the user’s age, the number of participants already registered, and their email
+        address.<br> Use conditional statements to validate whether the user can register for the event. Think about how
+        to handle cases where some or all conditions are not met.<br>
+    </p>
+    <img src="./final 5.jpg" alt="">
+    <p>
+        // 1. Scenario: Online Library Membership<br>
+        // Context: An online library offers different levels of membership. Depending on the type of membership, users
+        have access to different resources:<br>
+        // Basic Membership: Access to only free books.<br>
+        // Standard Membership: Access to free books and discounted paid books.<br>
+        // Premium Membership: Access to all books, including exclusive content.<br>
+        // Question: Imagine you have a variable that stores a user’s membership type.<br> Using conditional statements,
+        determine what resources the user can access and display a message indicating their access level. Consider how
+        you would handle a situation where the membership type is invalid.<br>
+        // const prompt = require("prompt-sync")();<br>
+        // var membershipType = prompt("membershipType?");<br>
+        // if (membershipType === "Basic") {<br>
+        // console.log("Access to only free books");<br>
+        // } else if (membershipType === "Standard") {<br>
+        // console.log("Access to free books and discounted paid books");<br>
+        // } else if (membershipType === "Premium") {<br>
+        // console.log("Access to all books, including exclusive content");<br>
+        // } else {<br>
+        // console.log("Invalid membership type");<br>
+        // }<br>
+        // . Scenario: E-Commerce Discount Application<br>
+        // ---------------------------------------------<br>
+        // Context: An e-commerce platform applies discounts based on the user's membership status and the total
+        purchase amount:<br>
+        <br>
+        // Regular Customers: No discount for purchases under $100. A 5% discount for purchases between $100 and $500. A
+        10% discount for purchases over $500.<br>
+
+        // VIP Customers: A 10% discount for purchases under $100. A 15% discount for purchases between $100 and $500. A
+        20% discount for purchases over $500.<br>
+
+        // Question: Suppose you have variables that represent a user’s membership status and purchase amount. Use
+        conditional statements to determine the final price after applying the appropriate discount. Think about how to
+        handle invalid inputs, such as negative purchase amounts or unrecognized membership statuses.<br>
+        // var prompt = require("prompt-sync")();<br>
+        // var membershipType = prompt("membershipType?");<br>
+        // var purchaseAmount = prompt("purchase_amount?");<br>
+        // purchaseAmount = Number.parseInt(purchaseAmount);<br>
+        // if (membershipType === "Regular") {<br>
+        // if (0 < purchaseAmount && purchaseAmount < 100) {<br>
+            // console.log(purchaseAmount);<br>
+            // } else if (100 <= purchaseAmount && purchaseAmount <=500) {<br>
+                // console.log(purchaseAmount - purchaseAmount * (5 / 100));<br>
+                // } else if (purchaseAmount > 500) {<br>
+                // console.log(purchaseAmount - purchaseAmount * (10 / 100));<br>
+                // } else {<br>
+                // console.log("invalid puchase amount");<br>
+                // }<br>
+                // } else if (membershipType === "VIP") {<br>
+                // if (0 < purchaseAmount && purchaseAmount < 100) {<br>
+                    // console.log(purchaseAmount - purchaseAmount * (10 / 100));<br>
+                    // } else if (100 <= purchaseAmount && purchaseAmount <=500) {<br>
+                        // console.log(purchaseAmount - purchaseAmount * (15 / 100));<br>
+                        // } else if (purchaseAmount > 500) {<br>
+                        // console.log(purchaseAmount - purchaseAmount * (20 / 100));<br>
+                        // } else {<br>
+                        // console.log("invalid puchase amount");<br>
+                        // }<br>
+                        // } else {<br>
+                        // console.log("invalid membership type");<br>
+                        // }<br>
+                        // 3. Scenario: Academic Scholarship Eligibility<br>
+                        // ----------------------------------------------<br>
+                        // Context: A university offers scholarships to students based on their GPA and extracurricular
+                        involvement:<br>
+                        // Merit-Based Scholarship: Requires a GPA of 3.5 or higher.<br>
+                        // Leadership Scholarship: Requires active participation in at least two extracurricular
+                        activities and a GPA of 3.0 or higher.<br>
+                        // Community Service Scholarship: Requires 100 or more hours of community service and a GPA of
+                        2.5 or higher.<br>
+                        // Question: Given variables that store a student's GPA, number of extracurricular activities,
+                        and community service hours, use conditional statements to determine which scholarships the
+                        student is eligible for. Consider scenarios where a student qualifies for multiple scholarships
+                        or none.<br>
+                        // var prompt = require("prompt-sync")();<br>
+                        // var gpa = prompt("gpa?");<br>
+                        // var extracurricularActivities = prompt("extracurricularActivities?");<br>
+                        // var communityServiceHours = prompt("communityServiceHours?");<br>
+                        // gpa = Number.parseFloat(gpa);<br>
+                        // extracurricularActivities = Number.parseInt(extracurricularActivities);<br>
+                        // communityServiceHours = Number.parseInt(communityServiceHours);<br>
+                        // if (gpa >= 3.5) {<br>
+                        // console.log("eligible for Merit-Based Scholarship");<br>
+                        // } else if (extracurricularActivities >= 2 && gpa >= 3.0) {<br>
+                        // console.log("eligible for Leadership Scholarship");<br>
+                        // } else if (communityServiceHours >= 100 && gpa >= 2.5) {<br>
+                        // console.log("eligible for Community Service Scholarship");<br>
+                        // } else {<br>
+                        // console.log("not eligible for any scholarship");<br>
+                        // }<br>
+                        // 4. Scenario: Movie Ticket Pricing<br>
+                        // ----------------------------------<br>
+                        // Context: A movie theater charges different prices based on the day of the week and the
+                        customer's age:<br>
+                        // Weekdays: Standard price of $12. Seniors (65 and older) and children (under 12) receive a 50%
+                        discount.<br>
+                        // Weekends: Standard price of $15. Seniors and children receive a 30% discount.<br>
+                        // Question: Assume you have variables for the day of the week and the customer’s age. Use
+                        conditional statements to determine the correct ticket price. Consider how to handle situations
+                        where the day or age is invalid.<br>
+                        // var prompt = require("prompt-sync")();<br>
+                        // var age = prompt("age?");<br>
+                        // age=Number.parseInt(age)<br>
+                        // var dayOfWeek = prompt("dayOfWeek?");<br>
+                        // let standard_price_weekdays=12;<br>
+                        // let standard_price_weekends=15;<br>
+                        // if (dayOfWeek === "Monday" || dayOfWeek === "Tuesday" || dayOfWeek === "Wednesday" ||
+                        dayOfWeek === "Thursday" || dayOfWeek === "Friday"){<br>
+                        // if(age>=65 && age<=12 && age>0){<br>
+                            // console.log(standard_price_weekdays-(standard_price_weekdays*0.5));<br>
+                            // }<br>
+                            // else{<br>
+                            // console.log(standard_price_weekdays)<br>
+                            // }<br>
+                            // }<br>
+                            // else if(dayOfWeek === "Saturday" || dayOfWeek === "Sunday"){<br>
+                            // if(age>=65 && age<=12 && age>0){<br>
+                                // console.log(standard_price_weekends-(standard_price_weekends*0.3));<br>
+                                // }<br>
+                                // else{<br>
+                                // console.log(standard_price_weekends)<br>
+                                // }<br>
+                                // }<br>
+                                // else{<br>
+                                // console.log("invalid day of week")<br>
+                                // }<br>
+                                // 5. Scenario: Event Registration Validation<br>
+                                // -------------------------------------------<br>
+                                // Context: An event registration system needs to validate user inputs before confirming
+                                their registration:<br>
+                                // The user must be 18 years or older to register.<br>
+                                // The event allows a maximum of 100 participants. If the event is full, no more
+                                registrations are accepted.<br>
+                                // The user must provide a valid email address.<br>
+                                // Question: You have variables for the user’s age, the number of participants already
+                                registered, and their email address. Use conditional statements to validate whether the
+                                user can register for the event. Think about how to handle cases where some or all
+                                conditions are not met.<br>
+                                // var prompt = require("prompt-sync")();<br>
+                                // var usersage = prompt("age?");<br>
+                                // var email = prompt("email?");<br>
+                                // usersage=Number.parseInt(usersage);<br>
+                                // var noofparticipants = prompt("noofofparticipants?");<br>
+                                // noofparticipents=Number.parseInt(noofparticipants);<br>
+                                // if (usersage >= 18 && noofparticipants < 100 && email==="valid" ){<br>
+                                    // console.log("you can register for the event");<br>
+                                    // }<br>
+                                    // else if (usersage < 18){<br>
+                                        // console.log("you are not eligible to register for the event");<br>
+                                        // }<br>
+                                        // else{<br>
+                                        // console.log("event is full");<br>
+                                        // }<br>
+    </p>
+</body>
+
+</html>
